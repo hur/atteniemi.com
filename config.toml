@@ -19,7 +19,7 @@ disqusShortname = "yourdiscussshortname"
     author = "Atte Niemi"
     description = "Atte Niemi's personal website"
     keywords = "blog,developer,personal"
-    info = "Computer Science student at University of Edinburgh"
+    info = "Computer Science & Mathematics student at University of Edinburgh"
     avatarurl = "/images/avatar.jpg"
     #gravatar = "john.doe@example.com"
     #footercontent = ""
@@ -94,13 +94,17 @@ disqusShortname = "yourdiscussshortname"
 #    url = "https://myhugosite.com/index.xml"
 #    rel = "alternate"
 #    type = "application/rss+xml"
-
+[[params.social]]
+    name="Email"
+    icon="fas fa-paper-plane"
+    weight=7
+    url="mailto:atte@atteniemi.com"
 
 [languages]
     [languages.en]
         languagename = "English"
 
-#        [languages.en.menu]
+        [languages.en.menu]
 
 #            [[languages.en.menu.main]]
 #            name = "About"
