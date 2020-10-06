@@ -1,5 +1,5 @@
 baseurl = "http://www.atteniemi.com"
-title = "Atte Niemi" 
+title = "Atte Niemi" #
 theme = "hugo-coder"
 
 languagecode = "en"
