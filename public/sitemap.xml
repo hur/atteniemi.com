@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://www.atteniemi.com/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.atteniemi.com/posts/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.atteniemi.com/posts/pwned3-infra-writeup/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.atteniemi.com/posts/htb-uni-ctf-double-agents/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.atteniemi.com/posts/pwned2-writeup-rsa/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.atteniemi.com/categories/</loc>
+  </url><url>
+    <loc>http://www.atteniemi.com/series/</loc>
+  </url><url>
+    <loc>http://www.atteniemi.com/tags/</loc>
+  </url>
+</urlset>

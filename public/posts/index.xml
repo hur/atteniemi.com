@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Atte Niemi</title>
+    <link>http://www.atteniemi.com/posts/</link>
+    <description>Recent content in Posts on Atte Niemi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 17 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://www.atteniemi.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pwnED 3 infrastructure writeup</title>
+      <link>http://www.atteniemi.com/posts/pwned3-infra-writeup/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.atteniemi.com/posts/pwned3-infra-writeup/</guid>
+      <description>This post is going to be about the infrastructure behind pwnEd 3, the third installment of the annual CTF competition hosted by SIGINT. 45 teams or approximately 155 users signed up. We used Google Cloud Platform to host CTFd, and DigitalOcean to host our challenges on a Kubernetes cluster.
+CTFd The complete CTFd terraform deployment is available here. CTFd is deployed on App Engine Flex, which allows for scaling the number of replicas up and down very easily, with load balancing and health checks and other nice-to-haves.</description>
+    </item>
+    
+    <item>
+      <title>HTB Uni CTF Finals - Double Agents Write-up</title>
+      <link>http://www.atteniemi.com/posts/htb-uni-ctf-double-agents/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.atteniemi.com/posts/htb-uni-ctf-double-agents/</guid>
+      <description>After a long investigation we have revealed the enemy&amp;rsquo;s service, which provides their agents with any needed documents. Recent events indicate that there are double agents among us. We need to read the double_agents.txt file in order to identify their names and treat them accordingly. Can you do it?
+We&amp;rsquo;re given code for a server that accepts hex input and attempts to decrypt it using AES CBC to open a file.</description>
+    </item>
+    
+    <item>
+      <title>pwnED 2 CTF Writeup - scuffed_rsa</title>
+      <link>http://www.atteniemi.com/posts/pwned2-writeup-rsa/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.atteniemi.com/posts/pwned2-writeup-rsa/</guid>
+      <description>In this challenge, we are given source code for a bad RSA algorithm. We are also given output (the ciphertext and $n$). We start by observing a part of the source code:
+e = 65536 def gen_key():  p = getPrime(1024)  q = getPrime(1024)  n = p # q  t = (p-1) * (q-1)  d = inverse(e, t)  return n, d Two things stand out here.</description>
+    </item>
+    
+  </channel>
+</rss>
